@@ -65,6 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/%{_name}/python/rox/suchild.sh
 %{_libdir}/%{_name}/AppI*
 %{_libdir}/%{_name}/.DirIcon
+%dir %{_libdir}/%{_name}/Help
 %{_libdir}/%{_name}/Help/README
 %{_libdir}/%{_name}/Messages/*.po
 %{_libdir}/%{_name}/Messages/*.gmo
