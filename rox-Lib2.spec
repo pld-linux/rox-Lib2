@@ -8,6 +8,7 @@ Release:	1
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/rox/rox-lib-%{version}.tgz
+# Source0-md5:	e1f647fa9d8f33f8728fa483f4904f5a
 URL:		http://rox.sourceforge.net/rox_lib.php3
 BuildRequires:	rpm-pythonprov
 Requires:	python-pygtk
