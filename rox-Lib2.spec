@@ -8,7 +8,6 @@ License:	GPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/rox/rox-lib-%{version}.tgz
 # Source0-md5:	a239bbde53e13ab1a2e92aedb8ac8d6f
-# Source0-size:	113541
 URL:		http://rox.sourceforge.net/rox_lib.php3
 Requires:	python-pygtk-gtk
 %pyrequires_eq  python
