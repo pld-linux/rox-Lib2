@@ -2,12 +2,13 @@
 Summary:	A library for ROX applications
 Summary(pl):	Biblioteka dla aplikacji ROXa
 Name:		rox-Lib2
-Version:	1.9.15
-Release:	2
+Version:	1.9.16
+Release:	1
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/rox/rox-lib-%{version}.tgz
-# Source0-md5:	439d54bf80ebcd2a83ea9acd2b22e7e3
+# Source0-md5:	a239bbde53e13ab1a2e92aedb8ac8d6f
+# Source0-size:	113541
 URL:		http://rox.sourceforge.net/rox_lib.php3
 BuildRequires:	rpm-pythonprov
 Requires:	python-pygtk-gtk
