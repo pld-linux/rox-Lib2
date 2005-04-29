@@ -8,7 +8,7 @@ License:	LGPL v2.1
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/rox/rox-lib-%{version}.tgz
 # Source0-md5:	a8e88bf0ad0bc78f7cd5eb06616a8dbe
-URL:		http://rox.sourceforge.net/rox_lib.php3
+URL:		http://rox.sourceforge.net/phpwiki/index.php/ROX-Lib
 Requires:	python-pygtk-gtk
 %pyrequires_eq  python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
