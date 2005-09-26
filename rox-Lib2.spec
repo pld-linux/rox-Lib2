@@ -44,7 +44,7 @@ install -d $RPM_BUILD_ROOT%{_libdir}/%{_name}/{bin,Help/python,python/rox} \
 install %{_name}/App* $RPM_BUILD_ROOT%{_libdir}/%{_name}
 install %{_name}/.DirIcon $RPM_BUILD_ROOT%{_libdir}/%{_name}
 install %{_name}/python/rox/* $RPM_BUILD_ROOT%{_libdir}/%{_name}/python/rox
-install %{_name}/Help/README $RPM_BUILD_ROOT%{_libdir}/%{_name}/Help
+install %{_name}/Help/{Errors,README} $RPM_BUILD_ROOT%{_libdir}/%{_name}/Help
 install %{_name}/Help/python/* $RPM_BUILD_ROOT%{_libdir}/%{_name}/Help/python
 install %{_name}/Messages/*.gmo $RPM_BUILD_ROOT%{_libdir}/%{_name}/Messages
 
@@ -56,12 +56,13 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc %{_name}/Help/{Changes,Errors,README,TODO,findrox.py}
+%doc %{_name}/Help/{Changes,TODO,findrox.py}
 %attr(755,root,root) %{_libdir}/%{_name}/AppRun
 %attr(755,root,root) %{_libdir}/%{_name}/python/rox/suchild.sh
 %{_libdir}/%{_name}/AppI*
 %{_libdir}/%{_name}/.DirIcon
 %dir %{_libdir}/%{_name}/Help
+%{_libdir}/%{_name}/Help/Errors
 %{_libdir}/%{_name}/Help/README
 %lang(de) %{_libdir}/%{_name}/Messages/de.gmo
 %lang(fr) %{_libdir}/%{_name}/Messages/fr.gmo
