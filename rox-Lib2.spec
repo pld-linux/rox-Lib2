@@ -8,7 +8,8 @@ License:	LGPL v2.1
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/rox/rox-lib-%{version}.tgz
 # Source0-md5:	e7d168299e7812d4df729cc175b44e2e
-URL:		http://rox.sourceforge.net/phpwiki/index.php/ROX-Lib
+URL:		http://rox.sourceforge.net/desktop/ROX-Lib
+BuildRequires:	rpmbuild(macros) >= 1.234
 Requires:	python-pygtk-gtk >= 2.0
 %pyrequires_eq  python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -50,6 +51,8 @@ install %{_name}/Messages/*.gmo $RPM_BUILD_ROOT%{_libdir}/%{_name}/Messages
 
 %py_comp $RPM_BUILD_ROOT%{_libdir}/%{_name}/python/rox
 %py_ocomp $RPM_BUILD_ROOT%{_libdir}/%{_name}/python/rox
+
+%py_postclean %{_libdir}/%{_name}/python/rox
 
 %clean
 rm -rf $RPM_BUILD_ROOT
