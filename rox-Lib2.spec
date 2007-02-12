@@ -1,6 +1,6 @@
 %define _name ROX-Lib2
 Summary:	A library for ROX applications
-Summary(pl.UTF-8):   Biblioteka dla aplikacji ROXa
+Summary(pl.UTF-8):	Biblioteka dla aplikacji ROXa
 Name:		rox-Lib2
 Version:	2.0.2
 Release:	1
@@ -24,7 +24,7 @@ aplikacje ROXa. To jest wersja dla GTK+2.
 
 %package devel
 Summary:	ROX-Lib2 library development files
-Summary(pl.UTF-8):   Pliki programistyczne biblioteki ROX-Lib2
+Summary(pl.UTF-8):	Pliki programistyczne biblioteki ROX-Lib2
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
