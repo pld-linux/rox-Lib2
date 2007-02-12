@@ -1,6 +1,6 @@
 %define _name ROX-Lib2
 Summary:	A library for ROX applications
-Summary(pl):	Biblioteka dla aplikacji ROXa
+Summary(pl.UTF-8):   Biblioteka dla aplikacji ROXa
 Name:		rox-Lib2
 Version:	2.0.2
 Release:	1
@@ -18,21 +18,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ROX-Lib contains shared code which can be used by other ROX
 applications. It is a GTK+2 version.
 
-%description -l pl
-ROX-Lib zawiera dzielone biblioteki, które mog± byæ u¿ywane przez inne
+%description -l pl.UTF-8
+ROX-Lib zawiera dzielone biblioteki, ktÃ³re mogÄ… byÄ‡ uÅ¼ywane przez inne
 aplikacje ROXa. To jest wersja dla GTK+2.
 
 %package devel
 Summary:	ROX-Lib2 library development files
-Summary(pl):	Pliki programistyczne biblioteki ROX-Lib2
+Summary(pl.UTF-8):   Pliki programistyczne biblioteki ROX-Lib2
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Documentation for developing applications using ROX-Lib2 library.
 
-%description devel -l pl
-Dokumentacja dla osób tworz±cych aplikacje u¿ywaj±ce biblioteki ROX-Lib2.
+%description devel -l pl.UTF-8
+Dokumentacja dla osÃ³b tworzÄ…cych aplikacje uÅ¼ywajÄ…ce biblioteki ROX-Lib2.
 
 %prep
 %setup -q -n rox-lib-%{version}
